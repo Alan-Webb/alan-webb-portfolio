@@ -28,9 +28,9 @@ const imageVariants = {
 const Hero = () => {
 	return (
 		<section>
-			<div className="z-10 min-h-screen flex flex-col md:flex-row items-center text-white">
+			<div className="z-10 min-h-screen flex flex-col md:flex-row items-center text-white mt-12">
 				<motion.div
-					className="w-full md:w-1/2 p-8"
+					className="w-full md:w-1/2 p-8 xl:ps-80"
 					initial="hidden"
 					animate="visible"
 					variants={containerVariants}>
