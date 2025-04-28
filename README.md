@@ -1,2 +1,12 @@
 # alan-webb-portfolio
-Webdev Portfolio
+
+Web dev portfolio
+
+## Built with
+
+- Nextjs
+- Tailwindcss
+
+## Author
+
+Alan Webb
