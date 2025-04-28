@@ -1,11 +1,11 @@
-# alan-webb-portfolio
+# awdev-portfolio
 
-Web dev portfolio
+My portfolio
 
 ## Built with
 
-- Nextjs
-- Tailwindcss
+- React
+- Tailwind CSS
 
 ## Author
 
