@@ -54,7 +54,7 @@ const Navbar = () => {
 					</div>
 				</div>
 				{/* Mobile Menu */}
-				<div className="rounded-lg backdrop-blur-md lg:hidden">
+				<div className="backdrop-blur-md lg:hidden">
 					<div className="flex items-center justify-center">
 						<div>
 							<a href="#">
@@ -79,7 +79,7 @@ const Navbar = () => {
 								<li key={index}>
 									<a
 										href={item.href}
-										className="block w-full text-lg hover:text-pink-400"
+										className="block w-full text-lg ps-16 pb-4 hover:text-pink-400"
 										onClick={(e) => handleLinkClick(e, item.href)}>
 										{item.label}
 									</a>

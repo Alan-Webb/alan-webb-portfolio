@@ -47,7 +47,7 @@ export const PROJECTS = [
 		description: "Martial arts training videos",
 		techStack: ["React", "Tailwindcss", "Framer-motion"],
 		imgSrc: projects2,
-		link: "https://paragon-studio.vercel.app/",
+		link: "https://paragon-studio.vercel.app//",
 	},
 	{
 		id: 3,

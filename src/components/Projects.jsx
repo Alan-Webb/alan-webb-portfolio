@@ -33,7 +33,7 @@ const Projects = () => {
 										{project.techStack.map((tech, index) => (
 											<li
 												key={index}
-												className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30 px-3 py-1 text-sm font-semibold">
+												className="mx-1 my-2 inline-block rounded-full border-2 border-pink-500/30 px-3 py-1 text-sm font-semibold">
 												{tech}
 											</li>
 										))}
