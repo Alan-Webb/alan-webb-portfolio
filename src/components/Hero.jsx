@@ -1,6 +1,7 @@
 import {motion} from "framer-motion";
 import {HERO_CONTENT} from "../constants";
 import alan from "../assets/alan-webb.webp";
+import {FaDownload} from "react-icons/fa";
 
 const textVariants = {
 	hidden: {opacity: 0, y: 50},
@@ -55,13 +56,14 @@ const Hero = () => {
 						{HERO_CONTENT.description}
 					</motion.p>
 					<motion.a
-						className="bg-pink-600 text-white p-3 lg:p-4 mt-8 inline-block rounded-2xl"
+						className="bg-pink-600 text-white text-lg p-3 lg:p-4 mt-8 inline-block rounded-2xl hover:bg-pink-500"
 						href={HERO_CONTENT.resumeLink}
 						download
 						rel="noopener noreferrer"
 						target="_blank"
 						variants={textVariants}>
 						{HERO_CONTENT.resumeLinkText}
+						<FaDownload className="inline-block mx-3 mb-1 text-sm" />
 					</motion.a>
 				</motion.div>
 

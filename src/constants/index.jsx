@@ -2,6 +2,16 @@ import projects1 from "../assets/matilda-hex.webp";
 import projects2 from "../assets/paragon-studios.webp";
 import projects3 from "../assets/coming-soon.webp";
 
+import {FaHtml5, FaCss3Alt, FaGithub} from "react-icons/fa";
+
+import {
+	RiJavascriptFill,
+	RiReactjsFill,
+	RiTailwindCssFill,
+} from "react-icons/ri";
+
+import {TbBrandFramerMotion} from "react-icons/tb";
+
 import person1 from "../assets/test-user-1.webp";
 import person2 from "../assets/test-user-2.webp";
 import person3 from "../assets/test-user-3.webp";
@@ -9,7 +19,8 @@ import person4 from "../assets/test-user-4.webp";
 
 export const LINKS = [
 	{href: "#about", label: "About"},
-	{href: "#projects", label: "projects"},
+	{href: "#projects", label: "Projects"},
+	{href: "#skills", label: "Skills"},
 	{href: "#testimonials", label: "Testimonials"},
 	{href: "#contact", label: "Contact"},
 ];
@@ -28,7 +39,7 @@ export const HERO_CONTENT = {
 export const ABOUT_CONTENT = {
 	paragraphs: [
 		"I am a dedicated frontend developer with a passion for building modern web applications that are both functional and aesthetically pleasing. Over the years, I have worked on numerous projects, always ensuring high performance and seamless user experiences.",
-		"I specialize in using technologies like React, and Tailwind CSS to create responsive and scalable interfaces. My focus is on writing clean, maintainable code while aiming to deliver projects that meet both business goals and user needs.",
+		"I specialize in using technologies like React, Tailwind CSS and Framer-motion to create responsive and scalable interfaces. My focus is on writing clean, maintainable code while aiming to deliver projects that meet both business goals and user needs.",
 	],
 };
 
@@ -37,7 +48,11 @@ export const PROJECTS = [
 		id: 1,
 		title: "Matilda Hex",
 		description: "Vendor of hexes and blessings",
-		techStack: ["React", "Tailwindcss", "Framer-motion"],
+		techStack: [
+			<RiReactjsFill className="text-purple-400" />,
+			<RiTailwindCssFill className="text-blue-300" />,
+			<TbBrandFramerMotion />,
+		],
 		imgSrc: projects1,
 		link: "https://matilda-hex.vercel.app/",
 	},
@@ -45,7 +60,11 @@ export const PROJECTS = [
 		id: 2,
 		title: "Paragon Studios",
 		description: "Martial arts training videos",
-		techStack: ["React", "Tailwindcss", "Framer-motion"],
+		techStack: [
+			<RiReactjsFill className="text-purple-400" />,
+			<RiTailwindCssFill className="text-blue-300" />,
+			<TbBrandFramerMotion />,
+		],
 		imgSrc: projects2,
 		link: "https://paragon-studio.vercel.app//",
 	},
@@ -53,9 +72,40 @@ export const PROJECTS = [
 		id: 3,
 		title: "Coming Soon",
 		description: "Watch this space for more content",
-		techStack: ["React", "Tailwindcss", "Framer-motion"],
+		techStack: [
+			<RiReactjsFill className="text-purple-400" />,
+			<RiTailwindCssFill className="text-blue-300" />,
+			<TbBrandFramerMotion />,
+		],
 		imgSrc: projects3,
 		link: "#",
+	},
+];
+
+export const SKILLS = [
+	{
+		name: "HTML5",
+		icon: <FaHtml5 className="text-orange-600" />,
+	},
+	{
+		name: "CSS3",
+		icon: <FaCss3Alt className="text-blue-500" />,
+	},
+	{
+		name: "JavaScript",
+		icon: <RiJavascriptFill className="text-yellow-500" />,
+	},
+	{
+		name: "React",
+		icon: <RiReactjsFill className="text-purple-400" />,
+	},
+	{
+		name: "Tailwind CSS",
+		icon: <RiTailwindCssFill className="text-green-500" />,
+	},
+	{
+		name: "Github",
+		icon: <FaGithub className="text-pink-400" />,
 	},
 ];
 

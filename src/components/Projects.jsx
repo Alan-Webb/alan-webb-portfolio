@@ -1,5 +1,5 @@
-import {motion} from "framer-motion";
 import {PROJECTS} from "../constants";
+import {MdArrowOutward} from "react-icons/md";
 
 const Projects = () => {
 	return (
@@ -15,25 +15,36 @@ const Projects = () => {
 						key={project.id}
 						className="flex w-full flex-col p-4 md:w-1/2 lg:w-1/3">
 						<div className="flex-grow overflow-hidden rounded-lg border border-purple-300/20">
-							<a href={project.link} target="_blank" rel="noopener noreferrer">
-								<img
-									src={project.imgSrc}
-									alt={project.title}
-									className="h-60 w-full object-cover"
-								/>
-							</a>
-							<div className="p-6">
-								<h3 className="mb-2 text-lg font-medium lg:text-2xl">
+							<img
+								src={project.imgSrc}
+								alt={project.title}
+								className="h-80 w-full object-cover"
+							/>
+
+							<div className="p-6 text-center">
+								<h3 className="mb-2 text-lg font-bold lg:text-2xl">
 									{project.title}
 								</h3>
 								<p className="mb-4">{project.description}</p>
-								<div className="mb-4">
-									<strong>Tech Stack:</strong>
+
+								<a
+									href={project.link}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="bg-pink-600 text-white text-md font-bold p-3 lg:p-4 inline-block rounded-2xl mb-3 hover:bg-pink-500">
+									<p>
+										View Project
+										<MdArrowOutward className="inline-block ms-2 mb-1" />
+									</p>
+								</a>
+
+								<div>
+									<p className="font-bold">Tech Stack</p>
 									<ul>
 										{project.techStack.map((tech, index) => (
 											<li
 												key={index}
-												className="mx-1 my-2 inline-block rounded-full border-2 border-pink-500/30 px-3 py-1 text-sm font-semibold">
+												className="text-xl font-semibold">
 												{tech}
 											</li>
 										))}

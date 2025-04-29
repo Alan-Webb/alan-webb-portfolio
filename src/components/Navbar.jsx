@@ -34,7 +34,7 @@ const Navbar = () => {
 					<div className="flex items-center justify-between gap-6">
 						<div>
 							<a href="#">
-								<p className="uppercase pe-48">Alan Webb</p>
+								<p className="uppercase pe-28">Alan Webb / AWDev</p>
 							</a>
 						</div>
 						<div>
@@ -66,9 +66,9 @@ const Navbar = () => {
 								onClick={toggleMobileMenu}
 								className="focus:outline-none lg:hidden">
 								{isMobileMenuOpen ? (
-									<FaTimes className="m-2 h-6 w-5" />
+									<FaTimes className="m-2 h-6 w-5 cursor-pointer" />
 								) : (
-									<FaBars className="m-2 h-6 w-5" />
+									<FaBars className="m-2 h-6 w-5 cursor-pointer" />
 								)}
 							</button>
 						</div>
