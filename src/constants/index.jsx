@@ -47,11 +47,11 @@ export const PROJECTS = [
 	{
 		id: 1,
 		title: "Matilda Hex",
-		description: "Vendor of hexes and blessings",
+		description: "Hexes and blessings",
 		techStack: [
 			<RiReactjsFill className="text-purple-400" />,
 			<RiTailwindCssFill className="text-blue-300" />,
-			<TbBrandFramerMotion />,
+			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
 		imgSrc: projects1,
 		link: "https://matilda-hex.vercel.app/",
@@ -63,7 +63,7 @@ export const PROJECTS = [
 		techStack: [
 			<RiReactjsFill className="text-purple-400" />,
 			<RiTailwindCssFill className="text-blue-300" />,
-			<TbBrandFramerMotion />,
+			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
 		imgSrc: projects2,
 		link: "https://paragon-studio.vercel.app//",
@@ -75,7 +75,7 @@ export const PROJECTS = [
 		techStack: [
 			<RiReactjsFill className="text-purple-400" />,
 			<RiTailwindCssFill className="text-blue-300" />,
-			<TbBrandFramerMotion />,
+			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
 		imgSrc: projects3,
 		link: "#",

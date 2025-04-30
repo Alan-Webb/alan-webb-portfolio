@@ -22,7 +22,7 @@ const Projects = () => {
 							/>
 
 							<div className="p-6 text-center">
-								<h3 className="mb-2 text-lg font-bold lg:text-2xl">
+								<h3 className="mb-3 text-lg font-bold lg:text-2xl">
 									{project.title}
 								</h3>
 								<p className="mb-4">{project.description}</p>
@@ -31,20 +31,20 @@ const Projects = () => {
 									href={project.link}
 									target="_blank"
 									rel="noopener noreferrer"
-									className="bg-pink-600 text-white text-md font-bold p-3 lg:p-4 inline-block rounded-2xl mb-3 hover:bg-pink-500">
+									className="bg-pink-600 border border-pink-50 text-white text-md font-bold p-3 lg:p-4 inline-block rounded-2xl mb-6 hover:bg-pink-500">
 									<p>
 										View Project
 										<MdArrowOutward className="inline-block ms-2 mb-1" />
 									</p>
 								</a>
 
-								<div>
-									<p className="font-bold">Tech Stack</p>
-									<ul>
+								<div className="flex flex-col">
+									<p className="font-bold mb-3">Tech Stack</p>
+									<ul className="flex justify-center gap-6">
 										{project.techStack.map((tech, index) => (
 											<li
 												key={index}
-												className="text-xl font-semibold">
+												className="text-4xl md:text-5xl lg:text-6xl p-1">
 												{tech}
 											</li>
 										))}
