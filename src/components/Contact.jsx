@@ -9,9 +9,7 @@ const Contact = () => {
 		email: "",
 		message: "",
 	});
-
 	const [errors, setErrors] = useState({});
-
 	const [isSending, setIsSending] = useState(false);
 
 	const handleChange = (e) => {
@@ -64,89 +62,96 @@ const Contact = () => {
 	};
 
 	return (
-		<div className="mx-auto max-w-3xl p-4" id="contact">
-			<Toaster />
-			<h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">
-				Let's Connect
-			</h2>
-			<motion.form
-				initial={{opacity: 0}}
-				whileInView={{opacity: 1}}
-				transition={{duration: 0.8, delay: 1}}
-				onSubmit={handleSubmit}>
-				{/* Name input */}
-				<div className="mb-4">
-					<input
-						type="text"
-						id="name"
-						name="name"
-						value={formData.name}
-						placeholder="Name"
-						onChange={handleChange}
-						className="mb-8 w-full appearance-none rounded-lg border border-gray-900 bg-transparent px-3 py-2 text-sm focus:border-gray-400 focus:outline:none"
-					/>
-					{errors.name && (
-						<motion.p
-							initial={{opacity: 0}}
-							whileInView={{opacity: 1}}
-							aria-live="polite"
-							className="text-sm text-pink-700 ">
-							{errors.name}
-						</motion.p>
-					)}
-				</div>
-				{/* Email input */}
-				<div className="mb-4">
-					<input
-						type="email"
-						id="email"
-						name="email"
-						value={formData.email}
-						placeholder="Email"
-						onChange={handleChange}
-						className="mb-8 w-full appearance-none rounded-lg border border-gray-900 bg-transparent px-3 py-2 text-sm focus:border-gray-400 focus:outline:none"
-					/>
-					{errors.email && (
-						<motion.p
-							initial={{opacity: 0}}
-							whileInView={{opacity: 1}}
-							aria-live="polite"
-							className="text-sm text-pink-700 ">
-							{errors.email}
-						</motion.p>
-					)}
-				</div>
-				{/* Message input */}
-				<div className="mb-4">
-					<textarea
-						id="message"
-						name="message"
-						value={formData.message}
-						placeholder="Type your message here"
-						onChange={handleChange}
-						className="mb-8 w-full appearance-none rounded-lg border border-gray-900 bg-transparent px-3 py-2 text-sm focus:border-gray-400 focus:outline:none"
-						rows="4"
-					/>
-					{errors.message && (
-						<motion.p
-							initial={{opacity: 0}}
-							whileInView={{opacity: 1}}
-							aria-live="polite"
-							className="text-sm text-pink-700 ">
-							{errors.message}
-						</motion.p>
-					)}
-				</div>
-				<button
-					type="submit"
-					className={`mb-8 w-full rounded bg-pink-600 px-4 py-2 text-sm font-semibold text-white hover:bg-yellow-500 ${
-						isSending ? "cursor-not-allowed opacity-50" : ""
-					}`}
-					disabled={isSending}>
-					{isSending ? "Sending..." : "Send"}
-				</button>
-			</motion.form>
-		</div>
+		<section className="px-6 py-10 min-h-screen" id="contact">
+			<h1 className="text-4xl md:text-6xl font-medium tracking-tight mb-10">
+				Contact
+			</h1>
+			<div className="h-1 w-20 bg-white mb-10"></div>
+
+			<div className="max-w-3xl mx-auto">
+				<Toaster />
+				<h2 className="my-12 text-center text-4xl font-semibold tracking-tighter">
+					Let's Connect
+				</h2>
+				<motion.form
+					initial={{opacity: 0}}
+					whileInView={{opacity: 1}}
+					transition={{duration: 0.8, delay: 1}}
+					onSubmit={handleSubmit}>
+					{/* Name input */}
+					<div className="mb-4">
+						<input
+							type="text"
+							id="name"
+							name="name"
+							value={formData.name}
+							placeholder="Name"
+							onChange={handleChange}
+							className="mb-8 w-full appearance-none rounded-lg border border-pink-600 bg-transparent px-3 py-3 text-sm focus:border-pink-500 focus:outline:none"
+						/>
+						{errors.name && (
+							<motion.p
+								initial={{opacity: 0}}
+								whileInView={{opacity: 1}}
+								aria-live="polite"
+								className="text-sm text-pink-700 mt-[-1.5rem]">
+								{errors.name}
+							</motion.p>
+						)}
+					</div>
+					{/* Email input */}
+					<div className="mb-4">
+						<input
+							type="email"
+							id="email"
+							name="email"
+							value={formData.email}
+							placeholder="Email"
+							onChange={handleChange}
+							className="mb-8 w-full appearance-none rounded-lg border border-pink-600 bg-transparent px-3 py-3 text-sm focus:border-pink-500 focus:outline:none"
+						/>
+						{errors.email && (
+							<motion.p
+								initial={{opacity: 0}}
+								whileInView={{opacity: 1}}
+								aria-live="polite"
+								className="text-sm text-pink-700 mt-[-1.5rem]">
+								{errors.email}
+							</motion.p>
+						)}
+					</div>
+					{/* Message input */}
+					<div className="mb-4">
+						<textarea
+							id="message"
+							name="message"
+							value={formData.message}
+							placeholder="Type your message here"
+							onChange={handleChange}
+							className="mb-8 w-full appearance-none rounded-lg border border-pink-600 bg-transparent px-3 py-3 text-sm focus:border-pink-500 focus:outline:none resize-none"
+							rows="4"
+						/>
+						{errors.message && (
+							<motion.p
+								initial={{opacity: 0}}
+								whileInView={{opacity: 1}}
+								aria-live="polite"
+								className="text-sm text-pink-700 mt-[-1.5rem]">
+								{errors.message}
+							</motion.p>
+						)}
+					</div>
+					<button
+						type="submit"
+						className={`my-8 w-full rounded bg-pink-600 px-4 py-2 text-sm font-semibold text-white hover:bg-pink-500 cursor-pointer ${
+							isSending ? "cursor-not-allowed opacity-50" : ""
+						}`}
+						disabled={isSending}>
+						{isSending ? "Sending..." : "Send"}
+					</button>
+				</motion.form>
+			</div>
+		</section>
 	);
 };
 

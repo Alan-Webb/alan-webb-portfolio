@@ -23,7 +23,12 @@ const iconVariants = (duration) => ({
 
 const Skills = () => {
 	return (
-		<section className="my-36" id="skills">
+		<section className="my-48 px-6 py-10 min-h-screen" id="skills">
+			<h1 className="text-4xl md:text-6xl font-medium tracking-tight mb-10">
+				Skills
+			</h1>
+			<div className="h-1 w-20 bg-white mb-10"></div>
+
 			<div className="pb-24">
 				<motion.h1
 					whileInView={{opacity: 1, y: 0}}

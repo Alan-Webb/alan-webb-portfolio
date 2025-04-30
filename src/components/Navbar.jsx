@@ -34,7 +34,7 @@ const Navbar = () => {
 					<div className="flex items-center justify-between gap-6">
 						<div>
 							<a href="#">
-								<p className="uppercase pe-28">Alan Webb / AWDev</p>
+								<p className="uppercase me-28">Alan Webb / AWDev</p>
 							</a>
 						</div>
 						<div>

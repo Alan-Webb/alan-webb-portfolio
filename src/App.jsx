@@ -9,7 +9,7 @@ import Skills from "./components/Skills.jsx";
 
 const App = () => {
 	return (
-		<>
+		<main>
 			<AnimatedBG />
 			<Navbar />
 			<Hero />
@@ -18,7 +18,7 @@ const App = () => {
 			<Skills />
 			<Testimonials />
 			<Contact />
-		</>
+		</main>
 	);
 };
 
