@@ -42,7 +42,7 @@ const Skills = () => {
 						variants={iconVariants(2.5)}
 						initial="initial"
 						animate="animate"
-						className="rounded-2xl border-4 border-neutral-800 p-4">
+						className="rounded-2xl border-4 border-pink-500 p-4">
 						<FaHtml5 className="text-7xl text-red-500" />
 					</motion.div>
 
@@ -50,7 +50,7 @@ const Skills = () => {
 						variants={iconVariants(3)}
 						initial="initial"
 						animate="animate"
-						className="rounded-2xl border-4 border-neutral-800 p-4">
+						className="rounded-2xl border-4 border-pink-500 p-4">
 						<FaCss3Alt className="text-7xl text-blue-500" />
 					</motion.div>
 
@@ -58,7 +58,7 @@ const Skills = () => {
 						variants={iconVariants(5)}
 						initial="initial"
 						animate="animate"
-						className="rounded-2xl border-4 border-neutral-800 p-4">
+						className="rounded-2xl border-4 border-pink-500 p-4">
 						<RiJavascriptFill className="text-7xl text-yellow-300" />
 					</motion.div>
 
@@ -66,7 +66,7 @@ const Skills = () => {
 						variants={iconVariants(2)}
 						initial="initial"
 						animate="animate"
-						className="rounded-2xl border-4 border-neutral-800 p-4">
+						className="rounded-2xl border-4 border-pink-500 p-4">
 						<RiReactjsFill className="text-7xl text-blue-600" />
 					</motion.div>
 
@@ -74,7 +74,7 @@ const Skills = () => {
 						variants={iconVariants(6)}
 						initial="initial"
 						animate="animate"
-						className="rounded-2xl border-4 border-neutral-800 p-4">
+						className="rounded-2xl border-4 border-pink-500 p-4">
 						<RiTailwindCssFill className="text-7xl text-cyan-400" />
 					</motion.div>
 
@@ -82,7 +82,7 @@ const Skills = () => {
 						variants={iconVariants(3)}
 						initial="initial"
 						animate="animate"
-						className="rounded-2xl border-4 border-neutral-800 p-4">
+						className="rounded-2xl border-4 border-pink-500 p-4">
 						<FaBootstrap className="text-7xl text-blue-600" />
 					</motion.div>
 
@@ -90,7 +90,7 @@ const Skills = () => {
 						variants={iconVariants(4)}
 						initial="initial"
 						animate="animate"
-						className="rounded-2xl border-4 border-neutral-800 p-4">
+						className="rounded-2xl border-4 border-pink-500 p-4">
 						<TbBrandFramerMotion className="text-7xl text-yellow-200" />
 					</motion.div>
 
@@ -98,7 +98,7 @@ const Skills = () => {
 						variants={iconVariants(2)}
 						initial="initial"
 						animate="animate"
-						className="rounded-2xl border-4 border-neutral-800 p-4">
+						className="rounded-2xl border-4 border-pink-500 p-4">
 						<FaGithub className="text-7xl text-white" />
 					</motion.div>
 
@@ -106,7 +106,7 @@ const Skills = () => {
 						variants={iconVariants(1)}
 						initial="initial"
 						animate="animate"
-						className="rounded-2xl border-4 border-neutral-800 p-4">
+						className="rounded-2xl border-4 border-pink-500 p-4">
 						<TbBrandFigma className="text-7xl text-stone-500" />
 					</motion.div>
 				</div>

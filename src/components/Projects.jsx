@@ -9,16 +9,16 @@ const Projects = () => {
 			</h1>
 			<div className="h-1 w-20 bg-white mb-10"></div>
 
-			<div className="flex flex-wrap justify-center">
+			<div className="flex flex-wrap justify-center ">
 				{PROJECTS.map((project) => (
 					<div
 						key={project.id}
 						className="flex w-full flex-col p-4 md:w-1/2 lg:w-1/3">
-						<div className="flex-grow overflow-hidden rounded-lg border border-purple-300/20">
+						<div className="flex-grow overflow-hidden rounded-lg border border-purple-300/20 hover:scale-110 transition duration-800">
 							<img
 								src={project.imgSrc}
 								alt={project.title}
-								className="h-80 w-full object-cover"
+								className="h-80 w-full object-cover "
 							/>
 
 							<div className="p-6 text-center">

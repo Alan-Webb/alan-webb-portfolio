@@ -2,7 +2,7 @@ import projects1 from "../assets/matilda-hex.webp";
 import projects2 from "../assets/paragon-studios.webp";
 import projects3 from "../assets/coming-soon.webp";
 
-import {FaHtml5, FaCss3Alt, FaGithub} from "react-icons/fa";
+import {FaHtml5, FaCss3Alt, FaGithub, FaLinkedin} from "react-icons/fa";
 
 import {
 	RiJavascriptFill,
@@ -16,6 +16,8 @@ import person1 from "../assets/test-user-1.webp";
 import person2 from "../assets/test-user-2.webp";
 import person3 from "../assets/test-user-3.webp";
 import person4 from "../assets/test-user-4.webp";
+import person5 from "../assets/test-user-5.webp";
+import person6 from "../assets/test-user-6.webp";
 
 export const LINKS = [
 	{href: "#about", label: "About"},
@@ -47,7 +49,7 @@ export const PROJECTS = [
 	{
 		id: 1,
 		title: "Matilda Hex",
-		description: "Hexes and blessings",
+		description: "Wiccan solutions",
 		techStack: [
 			<RiReactjsFill className="text-purple-400" />,
 			<RiTailwindCssFill className="text-blue-300" />,
@@ -133,26 +135,40 @@ export const TESTIMONIALS = [
 	},
 	{
 		name: "Mathilda Hex",
-		title: "High Priestess, Matilda Hex LTD",
+		title: "High Priestess, Matilda Hex Ltd",
 		feedback:
 			"I have been using AW Dev for over a year now and I love it! It really boosted my very niche business when I thought it wasn't going to take off.",
 		image: person4,
 	},
+	{
+		name: "Daniel Miller",
+		title: "Maitre, Salle Pierre",
+		feedback:
+			"Working with AWDev was a fantastic experience. They truly understood our vision for a new e-commerce platform and translated it into a sleek, user-friendly website that has significantly boosted our online sales.",
+		image: person5,
+	},
+	{
+		name: "Sarah Chen",
+		title: "Marketing Director, Bloom & Grow Ltd",
+		feedback:
+			"From the initial consultation to the final launch, their attention to detail and commitment to quality were evident. The website they created is modern, fast, and perfectly reflects our brand identity.",
+		image: person6,
+	},
 ];
 
-export const FOOTER_CONTENT = {
+export const SOCIAL_LINKS = {
 	socialLinks: [
 		{
 			platform: "GitHub",
 			url: "https://github.com/Alan-Webb?tab=overview&from=2025-03-01&to=2025-03-13",
 			ariaLabel: "View my GitHub profile",
-			icon: "RiGithubFill",
+			icon: <FaGithub />,
 		},
 		{
 			platform: "LinkedIn",
 			url: "https://www.linkedin.com/in/alan-webb-41b1a9296/",
 			ariaLabel: "Connect with me on LinkedIn",
-			icon: "RiLinkedinFill",
+			icon: <FaLinkedin />,
 		},
 	],
 };
