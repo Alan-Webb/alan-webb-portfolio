@@ -116,7 +116,7 @@ export const TESTIMONIALS = [
 		name: "Ysolde Ripley",
 		title: "Engineer, Bachaus LTD",
 		feedback:
-			"If you want to take your business to the next level, use AW Dev and don't look any further. I would definitely be using their services.",
+			"If you want to take your business to the next level, use AWDev and don't look any further. I would definitely be using their services.",
 		image: person1,
 	},
 	{
@@ -130,18 +130,18 @@ export const TESTIMONIALS = [
 		name: "Bryce Conner",
 		title: "Event Manager, Tech Noir",
 		feedback:
-			"I love AW Dev! This is an amazing service and it has saved me and my small business so much time. I plan to use it for as long as I am running my business.",
+			"I love AWDev! This is an amazing service and it has saved me and my small business so much time. I plan to use it for as long as I am running my business.",
 		image: person3,
 	},
 	{
 		name: "Mathilda Hex",
 		title: "High Priestess, Matilda Hex Ltd",
 		feedback:
-			"I have been using AW Dev for over a year now and I love it! It really boosted my very niche business when I thought it wasn't going to take off.",
+			"I have been using AWDev for over a year now and I love it! It really boosted my very niche business when I thought it wasn't going to take off.",
 		image: person4,
 	},
 	{
-		name: "Daniel Miller",
+		name: "Daniella Miller",
 		title: "Maitre, Salle Pierre",
 		feedback:
 			"Working with AWDev was a fantastic experience. They truly understood our vision for a new e-commerce platform and translated it into a sleek, user-friendly website that has significantly boosted our online sales.",
