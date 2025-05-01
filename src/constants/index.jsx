@@ -2,7 +2,7 @@ import projects1 from "../assets/matilda-hex.webp";
 import projects2 from "../assets/paragon-studios.webp";
 import projects3 from "../assets/coming-soon.webp";
 
-import {FaHtml5, FaCss3Alt, FaGithub, FaLinkedin} from "react-icons/fa";
+import {FaHtml5, FaCss3Alt, FaGithub} from "react-icons/fa";
 
 import {
 	RiJavascriptFill,
@@ -116,59 +116,42 @@ export const TESTIMONIALS = [
 		name: "Ysolde Ripley",
 		title: "Engineer, Bachaus LTD",
 		feedback:
-			"If you want to take your business to the next level, use AWDev and don't look any further. I would definitely be using their services.",
+			"If you want to take your business to the next level, use AWDev and don't look any further. I strongly recommend their services.",
 		image: person1,
 	},
 	{
 		name: "Diana Prince",
-		title: "Director of Training, Paragon Studios",
+		title: "Recruitment, Paragon Studios",
 		feedback:
-			"I would recommend AW Dev for anyone trying to get the word out about their business. AW Dev seems to instinctively know the right layout for your businesses website.",
+			"I would recommend AWDev for anyone trying to get the word out about their business. AWDev seems to instinctively know the right layout for your businesses website.",
 		image: person2,
 	},
 	{
 		name: "Bryce Conner",
 		title: "Event Manager, Tech Noir",
 		feedback:
-			"I love AWDev! This is an amazing service and it has saved me and my small business so much time. I plan to use it for as long as I am running my business.",
+			"This is an amazing service and it has saved me and my small business so much time. I plan to use it for as long as I am running my business.",
 		image: person3,
 	},
 	{
 		name: "Mathilda Hex",
 		title: "High Priestess, Matilda Hex Ltd",
 		feedback:
-			"I have been using AWDev for over a year now and I love it! It really boosted my very niche business when I thought it wasn't going to take off.",
+			"I have been using AWDev for nearly a year now and I love it! It really boosted my very niche business when I thought it wasn't going to take off.",
 		image: person4,
 	},
 	{
-		name: "Daniella Miller",
+		name: "Danica Miller",
 		title: "Maitre, Salle Pierre",
 		feedback:
-			"Working with AWDev was a fantastic experience. They truly understood our vision for a new e-commerce platform and translated it into a sleek, user-friendly website that has significantly boosted our online sales.",
+			"Working with AWDev was a fantastic experience. They truly understood our vision and translated it into a sleek, user-friendly website that has significantly boosted our online sales.",
 		image: person5,
 	},
 	{
 		name: "Sarah Chen",
-		title: "Marketing Director, Bloom & Grow Ltd",
+		title: "Marketing, Retro-genesis Ltd",
 		feedback:
-			"From the initial consultation to the final launch, their attention to detail and commitment to quality were evident. The website they created is modern, fast, and perfectly reflects our brand identity.",
+			"From the initial consultation to the final launch, their attention to detail and commitment to quality were evident. The website they created perfectly reflects our brand identity.",
 		image: person6,
 	},
 ];
-
-export const SOCIAL_LINKS = {
-	socialLinks: [
-		{
-			platform: "GitHub",
-			url: "https://github.com/Alan-Webb?tab=overview&from=2025-03-01&to=2025-03-13",
-			ariaLabel: "View my GitHub profile",
-			icon: <FaGithub />,
-		},
-		{
-			platform: "LinkedIn",
-			url: "https://www.linkedin.com/in/alan-webb-41b1a9296/",
-			ariaLabel: "Connect with me on LinkedIn",
-			icon: <FaLinkedin />,
-		},
-	],
-};

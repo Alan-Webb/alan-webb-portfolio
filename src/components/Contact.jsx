@@ -62,7 +62,7 @@ const Contact = () => {
 	};
 
 	return (
-		<section className="px-6 py-10 min-h-screen" id="contact">
+		<section className="px-6 pb-10 min-h-screen" id="contact">
 			<h1 className="text-4xl md:text-6xl font-medium tracking-tight mb-10">
 				Contact
 			</h1>
@@ -70,7 +70,7 @@ const Contact = () => {
 
 			<div className="max-w-3xl mx-auto">
 				<Toaster />
-				<h2 className="my-12 text-center text-4xl font-semibold tracking-tighter">
+				<h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">
 					Let's Connect
 				</h2>
 				<motion.form
@@ -141,9 +141,10 @@ const Contact = () => {
 							</motion.p>
 						)}
 					</div>
+					{/* Submit Button */}
 					<button
 						type="submit"
-						className={`my-8 w-full rounded bg-pink-600 px-4 py-2 text-sm font-semibold text-white hover:bg-pink-500 cursor-pointer ${
+						className={`w-full rounded-md bg-pink-600 px-4 py-2 text-sm font-semibold text-white hover:bg-pink-500 cursor-pointer ${
 							isSending ? "cursor-not-allowed opacity-50" : ""
 						}`}
 						disabled={isSending}>
@@ -151,6 +152,11 @@ const Contact = () => {
 					</button>
 				</motion.form>
 			</div>
+			<footer>
+				<p className="text-center text-sm text-pink-600 font-bold pt-36 tracking-wide">
+					&copy; AWDev. All rights reserved.
+				</p>
+			</footer>
 		</section>
 	);
 };

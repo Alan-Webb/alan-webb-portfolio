@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {LINKS} from "../constants";
-import {FaTimes} from "react-icons/fa";
+import {FaTimes, FaGithub} from "react-icons/fa";
 import {FaBars} from "react-icons/fa6";
 
 const Navbar = () => {
@@ -34,9 +34,10 @@ const Navbar = () => {
 					<div className="flex items-center justify-between gap-6">
 						<div>
 							<a href="#">
-								<p className="uppercase me-28">Alan Webb / AWDev</p>
+								<p className="uppercase me-36 hover:text-pink-400">AWDev</p>
 							</a>
 						</div>
+
 						<div>
 							<ul className="flex items-center gap-4">
 								{LINKS.map((item, index) => (
@@ -51,6 +52,15 @@ const Navbar = () => {
 								))}
 							</ul>
 						</div>
+					</div>
+					<div className="ms-6">
+						<a
+							href="https://github.com/Alan-Webb"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="text-xl hover:text-pink-400">
+							<FaGithub />
+						</a>
 					</div>
 				</div>
 				{/* Mobile Menu */}
