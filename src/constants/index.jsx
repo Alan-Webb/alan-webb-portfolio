@@ -63,8 +63,9 @@ export const PROJECTS = [
 		title: "Matilda Hex",
 		description: "Wiccan solutions",
 		techStack: [
-			<RiReactjsFill className="text-purple-400" />,
+			<FaHtml5 className="text-red-600" />,
 			<FaBootstrap className="text-blue-700" />,
+			<RiJavascriptFill className="text-yellow-300" />,
 		],
 		imgSrc: projects1,
 		link: "https://legacy-matilda-hex.vercel.app/",
