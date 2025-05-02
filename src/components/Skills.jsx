@@ -1,10 +1,11 @@
-import {FaHtml5, FaCss3Alt, FaBootstrap, FaGithub} from "react-icons/fa";
+import {FaHtml5, FaCss3Alt, FaBootstrap} from "react-icons/fa";
 import {
 	RiJavascriptFill,
 	RiReactjsFill,
 	RiTailwindCssFill,
 } from "react-icons/ri";
 import {TbBrandFramerMotion, TbBrandFigma} from "react-icons/tb";
+import {IoMdGitBranch} from "react-icons/io";
 
 import {motion} from "framer-motion";
 
@@ -99,7 +100,7 @@ const Skills = () => {
 						initial="initial"
 						animate="animate"
 						className="rounded-2xl border-4 border-pink-500 p-4">
-						<FaGithub className="text-7xl text-white" />
+						<IoMdGitBranch className="text-7xl text-green-600" />
 					</motion.div>
 
 					<motion.div

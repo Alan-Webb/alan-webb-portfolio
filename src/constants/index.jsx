@@ -2,7 +2,7 @@ import projects1 from "../assets/matilda-hex.webp";
 import projects2 from "../assets/paragon-studios.webp";
 import projects3 from "../assets/coming-soon.webp";
 
-import {FaHtml5, FaCss3Alt, FaGithub} from "react-icons/fa";
+import {FaHtml5, FaCss3Alt, FaGithub, FaBootstrap} from "react-icons/fa";
 
 import {
 	RiJavascriptFill,
@@ -48,18 +48,6 @@ export const ABOUT_CONTENT = {
 export const PROJECTS = [
 	{
 		id: 1,
-		title: "Matilda Hex",
-		description: "Wiccan solutions",
-		techStack: [
-			<RiReactjsFill className="text-purple-400" />,
-			<RiTailwindCssFill className="text-blue-300" />,
-			<TbBrandFramerMotion className="text-yellow-300" />,
-		],
-		imgSrc: projects1,
-		link: "https://matilda-hex.vercel.app/",
-	},
-	{
-		id: 2,
 		title: "Paragon Studios",
 		description: "Martial arts training videos",
 		techStack: [
@@ -71,13 +59,24 @@ export const PROJECTS = [
 		link: "https://paragon-studio.vercel.app//",
 	},
 	{
+		id: 2,
+		title: "Matilda Hex",
+		description: "Wiccan solutions",
+		techStack: [
+			<RiReactjsFill className="text-purple-400" />,
+			<FaBootstrap className="text-blue-700" />,
+		],
+		imgSrc: projects1,
+		link: "https://legacy-matilda-hex.vercel.app/",
+	},
+	{
 		id: 3,
 		title: "Coming Soon",
 		description: "Watch this space for more content",
 		techStack: [
-			<RiReactjsFill className="text-purple-400" />,
-			<RiTailwindCssFill className="text-blue-300" />,
-			<TbBrandFramerMotion className="text-yellow-300" />,
+			<FaHtml5 className="text-red-600" />,
+			<FaCss3Alt className="text-blue-500" />,
+			<RiJavascriptFill className="text-yellow-300" />,
 		],
 		imgSrc: projects3,
 		link: "#",
