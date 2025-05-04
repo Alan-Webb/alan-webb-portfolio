@@ -1,5 +1,5 @@
-import projects1 from "../assets/matilda-hex.webp";
-import projects2 from "../assets/paragon-studios.webp";
+import projects2 from "../assets/matilda-hex.webp";
+import projects1 from "../assets/paragon-studios.webp";
 import projects3 from "../assets/coming-soon.webp";
 
 import {FaHtml5, FaCss3Alt, FaGithub, FaBootstrap} from "react-icons/fa";
@@ -55,7 +55,7 @@ export const PROJECTS = [
 			<RiTailwindCssFill className="text-blue-300" />,
 			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
-		imgSrc: projects2,
+		imgSrc: projects1,
 		link: "https://paragon-studio.vercel.app//",
 	},
 	{
@@ -67,8 +67,8 @@ export const PROJECTS = [
 			<FaBootstrap className="text-blue-700" />,
 			<RiJavascriptFill className="text-yellow-300" />,
 		],
-		imgSrc: projects1,
-		link: "https://legacy-matilda-hex.vercel.app/",
+		imgSrc: projects2,
+		link: "https://matilda-hex.vercel.app/",
 	},
 	{
 		id: 3,
