@@ -1,6 +1,6 @@
 import projects2 from "../assets/matilda-hex.webp";
 import projects1 from "../assets/paragon-studios.webp";
-import projects3 from "../assets/coming-soon.webp";
+import projects3 from "../assets/retro-meta.webp";
 
 import {FaHtml5, FaCss3Alt, FaGithub, FaBootstrap} from "react-icons/fa";
 
@@ -72,8 +72,8 @@ export const PROJECTS = [
 	},
 	{
 		id: 3,
-		title: "Coming Soon",
-		description: "Watch this space for more content",
+		title: "Retro Metamorphosis",
+		description: "Retro to digital transcription",
 		techStack: [
 			<FaHtml5 className="text-red-600" />,
 			<FaCss3Alt className="text-blue-500" />,
@@ -149,7 +149,7 @@ export const TESTIMONIALS = [
 	},
 	{
 		name: "Sarah Chen",
-		title: "Marketing, Retro-genesis Ltd",
+		title: "Marketing, Retro-metamorphosis Ltd",
 		feedback:
 			"From the initial consultation to the final launch, their attention to detail and commitment to quality were evident. The website they created perfectly reflects our brand identity.",
 		image: person6,
