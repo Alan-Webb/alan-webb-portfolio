@@ -80,7 +80,7 @@ export const PROJECTS = [
 			<RiJavascriptFill className="text-yellow-300" />,
 		],
 		imgSrc: projects3,
-		link: "#",
+		link: "https://retro-metamorphosis.vercel.app/",
 	},
 ];
 
