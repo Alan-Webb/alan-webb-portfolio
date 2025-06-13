@@ -33,7 +33,7 @@ export const HERO_CONTENT = {
 	introduction:
 		"I'm a creative frontend developer, crafting immersive and intuitive web experiences.",
 	description:
-		"I’m currently helping small businesses bring their visions to life through interactive digital solutions.",
+		"I’m currently bringing independent projects to life through interactive digital solutions.",
 	resumeLinkText: "Download Resume",
 	resumeLink: "/resume.pdf",
 };
