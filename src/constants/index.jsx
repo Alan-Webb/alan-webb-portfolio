@@ -1,6 +1,6 @@
-import projects2 from "../assets/matilda-hex.webp";
 import projects1 from "../assets/paragon-studios.webp";
-import projects3 from "../assets/retro-meta.webp";
+import projects2 from "../assets/tech-noir.webp";
+import projects3 from "../assets/matilda-hex.webp";
 
 import {FaHtml5, FaCss3Alt, FaGithub, FaBootstrap} from "react-icons/fa";
 
@@ -60,6 +60,17 @@ export const PROJECTS = [
 	},
 	{
 		id: 2,
+		title: "Tech Noir",
+		description: "Cinematic Special Effects",
+		techStack: [
+			<RiReactjsFill className="text-purple-400" />,
+			<RiTailwindCssFill className="text-blue-300" />,
+		],
+		imgSrc: projects2,
+		link: "https://tech-noir.vercel.app/",
+	},
+	{
+		id: 3,
 		title: "Matilda Hex",
 		description: "Wiccan solutions",
 		techStack: [
@@ -67,20 +78,8 @@ export const PROJECTS = [
 			<FaBootstrap className="text-blue-700" />,
 			<RiJavascriptFill className="text-yellow-300" />,
 		],
-		imgSrc: projects2,
-		link: "https://matilda-hex.vercel.app/",
-	},
-	{
-		id: 3,
-		title: "Retro Metamorphosis",
-		description: "Retro to digital transcription",
-		techStack: [
-			<FaHtml5 className="text-red-600" />,
-			<FaCss3Alt className="text-blue-500" />,
-			<RiJavascriptFill className="text-yellow-300" />,
-		],
 		imgSrc: projects3,
-		link: "https://retro-metamorphosis.vercel.app/",
+		link: "https://matilda-hex.vercel.app/",
 	},
 ];
 
