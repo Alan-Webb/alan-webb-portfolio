@@ -18,7 +18,7 @@ const Projects = () => {
 							<img
 								src={project.imgSrc}
 								alt={project.title}
-								className="h-80 w-full object-cover "
+								className="h-80 w-full object-cover"
 							/>
 
 							<div className="p-6 text-center">
