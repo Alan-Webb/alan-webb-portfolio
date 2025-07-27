@@ -1,6 +1,6 @@
 import projects1 from "../assets/paragon-studios.webp";
 import projects2 from "../assets/tech-noir.webp";
-import projects3 from "../assets/matilda-hex.webp";
+import projects3 from "../assets/retro-meta.webp";
 
 import {FaHtml5, FaCss3Alt, FaGithub, FaBootstrap} from "react-icons/fa";
 
@@ -71,15 +71,15 @@ export const PROJECTS = [
 	},
 	{
 		id: 3,
-		title: "Matilda Hex",
-		description: "Wiccan solutions",
+		title: "Retro Metamorphosis",
+		description: "Analogue to digital transcription service",
 		techStack: [
-			<FaHtml5 className="text-red-600" />,
-			<FaBootstrap className="text-blue-700" />,
-			<RiJavascriptFill className="text-yellow-300" />,
+			<RiReactjsFill className="text-purple-400" />,
+			<RiTailwindCssFill className="text-blue-300" />,
+			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
 		imgSrc: projects3,
-		link: "https://matilda-hex.vercel.app/",
+		link: "https://retro-metamorphosis.vercel.app/",
 	},
 ];
 
