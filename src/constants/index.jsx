@@ -113,7 +113,7 @@ export const SKILLS = [
 export const TESTIMONIALS = [
 	{
 		name: "Ysolde Ripley",
-		title: "Engineer, Bachaus LTD",
+		title: "Engineer, Nova Haven",
 		feedback:
 			"If you want to take your business to the next level, use AWDev and don't look any further. I strongly recommend their services.",
 		image: person1,
