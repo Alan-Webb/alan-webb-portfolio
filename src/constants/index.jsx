@@ -1,6 +1,7 @@
-import projects1 from "../assets/paragon-studios.webp";
-import projects2 from "../assets/tech-noir.webp";
-import projects3 from "../assets/retro-meta.webp";
+import projects1 from "../assets/nova-haven.webp";
+import projects2 from "../assets/paragon-studios.webp";
+import projects3 from "../assets/tech-noir.webp";
+import projects4 from "../assets/retro-meta.webp";
 
 import {FaHtml5, FaCss3Alt, FaGithub, FaBootstrap} from "react-icons/fa";
 
@@ -48,37 +49,48 @@ export const ABOUT_CONTENT = {
 export const PROJECTS = [
 	{
 		id: 1,
-		title: "Paragon Studios",
-		description: "Martial arts training videos",
+		title: "Nova Haven",
+		description: "Real Estate Web Site",
 		techStack: [
 			<RiReactjsFill className="text-purple-400" />,
 			<RiTailwindCssFill className="text-blue-300" />,
-			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
 		imgSrc: projects1,
-		link: "https://paragon-studio.vercel.app//",
+		link: "https://nova-haven-fawn.vercel.app/",
 	},
 	{
 		id: 2,
-		title: "Tech Noir",
-		description: "Cinematic Special Effects",
-		techStack: [
-			<RiReactjsFill className="text-purple-400" />,
-			<RiTailwindCssFill className="text-blue-300" />,
-		],
-		imgSrc: projects2,
-		link: "https://tech-noir.vercel.app/",
-	},
-	{
-		id: 3,
-		title: "Retro Metamorphosis",
-		description: "Analogue to digital transcription service",
+		title: "Paragon Studios",
+		description: "Martial arts training Web Site",
 		techStack: [
 			<RiReactjsFill className="text-purple-400" />,
 			<RiTailwindCssFill className="text-blue-300" />,
 			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
+		imgSrc: projects2,
+		link: "https://paragon-studio.vercel.app//",
+	},
+	{
+		id: 3,
+		title: "Tech Noir",
+		description: "Cinematic Special Effects Web Site",
+		techStack: [
+			<RiReactjsFill className="text-purple-400" />,
+			<RiTailwindCssFill className="text-blue-300" />,
+		],
 		imgSrc: projects3,
+		link: "https://tech-noir.vercel.app/",
+	},
+	{
+		id: 4,
+		title: "Retro Metamorphosis",
+		description: "Analogue to Digital Transcription Web Site",
+		techStack: [
+			<RiReactjsFill className="text-purple-400" />,
+			<RiTailwindCssFill className="text-blue-300" />,
+			<TbBrandFramerMotion className="text-yellow-300" />,
+		],
+		imgSrc: projects4,
 		link: "https://retro-metamorphosis.vercel.app/",
 	},
 ];
