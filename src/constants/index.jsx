@@ -1,7 +1,8 @@
-import projects1 from "../assets/nova-haven.webp";
-import projects2 from "../assets/paragon-studios.webp";
-import projects3 from "../assets/tech-noir.webp";
-import projects4 from "../assets/retro-meta.webp";
+import projects1 from "../assets/gist-o-tron.webp";
+import projects2 from "../assets/nova-haven.webp";
+import projects3 from "../assets/paragon-studios.webp";
+import projects4 from "../assets/tech-noir.webp";
+import projects5 from "../assets/retro-meta.webp";
 
 import {FaHtml5, FaCss3Alt, FaGithub, FaBootstrap} from "react-icons/fa";
 
@@ -10,6 +11,8 @@ import {
 	RiReactjsFill,
 	RiTailwindCssFill,
 } from "react-icons/ri";
+
+import {SiVite} from "react-icons/si";
 
 import {TbBrandFramerMotion} from "react-icons/tb";
 
@@ -49,17 +52,30 @@ export const ABOUT_CONTENT = {
 export const PROJECTS = [
 	{
 		id: 1,
+		title: "Gist-O-Tron",
+		description: "AI Text Summarizer",
+		techStack: [
+			<RiReactjsFill className="text-purple-400" />,
+			<SiVite className="text-blue-500" />,
+			<RiTailwindCssFill className="text-blue-300" />,
+		],
+		imgSrc: projects1,
+		link: "https://gist-o-tron.vercel.app/",
+	},
+	{
+		id: 2,
 		title: "Nova Haven",
 		description: "Real Estate Web Site",
 		techStack: [
 			<RiReactjsFill className="text-purple-400" />,
+			<SiVite className="text-blue-500" />,
 			<RiTailwindCssFill className="text-blue-300" />,
 		],
-		imgSrc: projects1,
+		imgSrc: projects2,
 		link: "https://nova-haven-fawn.vercel.app/",
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Paragon Studios",
 		description: "Martial arts training Web Site",
 		techStack: [
@@ -67,22 +83,23 @@ export const PROJECTS = [
 			<RiTailwindCssFill className="text-blue-300" />,
 			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
-		imgSrc: projects2,
+		imgSrc: projects3,
 		link: "https://paragon-studio.vercel.app//",
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Tech Noir",
 		description: "Cinematic Special Effects Web Site",
 		techStack: [
 			<RiReactjsFill className="text-purple-400" />,
+			<SiVite className="text-blue-500" />,
 			<RiTailwindCssFill className="text-blue-300" />,
 		],
-		imgSrc: projects3,
+		imgSrc: projects4,
 		link: "https://tech-noir.vercel.app/",
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "Retro Metamorphosis",
 		description: "Analogue to Digital Transcription Web Site",
 		techStack: [
@@ -90,7 +107,7 @@ export const PROJECTS = [
 			<RiTailwindCssFill className="text-blue-300" />,
 			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
-		imgSrc: projects4,
+		imgSrc: projects5,
 		link: "https://retro-metamorphosis.vercel.app/",
 	},
 ];
@@ -153,7 +170,7 @@ export const TESTIMONIALS = [
 	},
 	{
 		name: "Danica Miller",
-		title: "Maitre, Salle Pierre",
+		title: "Maitre, Gist-o-Tron Systems",
 		feedback:
 			"Working with AWDev was a fantastic experience. They truly understood our vision and translated it into a sleek, user-friendly website that has significantly boosted our online sales.",
 		image: person5,
