@@ -112,33 +112,6 @@ export const PROJECTS = [
 	},
 ];
 
-export const SKILLS = [
-	{
-		name: "HTML5",
-		icon: <FaHtml5 className="text-orange-600" />,
-	},
-	{
-		name: "CSS3",
-		icon: <FaCss3Alt className="text-blue-500" />,
-	},
-	{
-		name: "JavaScript",
-		icon: <RiJavascriptFill className="text-yellow-500" />,
-	},
-	{
-		name: "React",
-		icon: <RiReactjsFill className="text-purple-400" />,
-	},
-	{
-		name: "Tailwind CSS",
-		icon: <RiTailwindCssFill className="text-green-500" />,
-	},
-	{
-		name: "Github",
-		icon: <FaGithub className="text-pink-400" />,
-	},
-];
-
 export const TESTIMONIALS = [
 	{
 		name: "Ysolde Ripley",

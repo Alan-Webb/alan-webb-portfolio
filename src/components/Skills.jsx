@@ -40,6 +40,22 @@ const Skills = () => {
 				</motion.h1>
 				<div className="flex flex-wrap items-center justify-center gap-4">
 					<motion.div
+						variants={iconVariants(2)}
+						initial="initial"
+						animate="animate"
+						className="rounded-2xl border-4 border-pink-500 p-4">
+						<RiReactjsFill className="text-7xl text-blue-600" />
+					</motion.div>
+
+					<motion.div
+						variants={iconVariants(6)}
+						initial="initial"
+						animate="animate"
+						className="rounded-2xl border-4 border-pink-500 p-4">
+						<RiTailwindCssFill className="text-7xl text-cyan-400" />
+					</motion.div>
+
+					<motion.div
 						variants={iconVariants(2.5)}
 						initial="initial"
 						animate="animate"
@@ -61,22 +77,6 @@ const Skills = () => {
 						animate="animate"
 						className="rounded-2xl border-4 border-pink-500 p-4">
 						<RiJavascriptFill className="text-7xl text-yellow-300" />
-					</motion.div>
-
-					<motion.div
-						variants={iconVariants(2)}
-						initial="initial"
-						animate="animate"
-						className="rounded-2xl border-4 border-pink-500 p-4">
-						<RiReactjsFill className="text-7xl text-blue-600" />
-					</motion.div>
-
-					<motion.div
-						variants={iconVariants(6)}
-						initial="initial"
-						animate="animate"
-						className="rounded-2xl border-4 border-pink-500 p-4">
-						<RiTailwindCssFill className="text-7xl text-cyan-400" />
 					</motion.div>
 
 					<motion.div
