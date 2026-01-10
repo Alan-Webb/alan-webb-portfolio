@@ -1,8 +1,9 @@
-import projects1 from "../assets/gist-o-tron.webp";
-import projects2 from "../assets/nova-haven.webp";
-import projects3 from "../assets/paragon-studios.webp";
-import projects4 from "../assets/tech-noir.webp";
-import projects5 from "../assets/retro-meta.webp";
+import projects1 from "../assets/cinephilia-hq.webp";
+import projects2 from "../assets/gist-o-tron.webp";
+import projects3 from "../assets/nova-haven.webp";
+import projects4 from "../assets/paragon-studios.webp";
+import projects5 from "../assets/tech-noir.webp";
+import projects6 from "../assets/retro-meta.webp";
 
 import {FaHtml5, FaCss3Alt, FaGithub, FaBootstrap} from "react-icons/fa";
 
@@ -52,6 +53,18 @@ export const ABOUT_CONTENT = {
 export const PROJECTS = [
 	{
 		id: 1,
+		title: "Cinephilia HQ",
+		description: "Movie Database App",
+		techStack: [
+			<RiReactjsFill className="text-purple-400" />,
+			<SiVite className="text-blue-500" />,
+			<RiTailwindCssFill className="text-blue-300" />,
+		],
+		imgSrc: projects1,
+		link: "https://cinephilia-hq.vercel.app/",
+	},
+	{
+		id: 2,
 		title: "Gist-O-Tron",
 		description: "AI Text Summarizer",
 		techStack: [
@@ -59,11 +72,11 @@ export const PROJECTS = [
 			<SiVite className="text-blue-500" />,
 			<RiTailwindCssFill className="text-blue-300" />,
 		],
-		imgSrc: projects1,
+		imgSrc: projects2,
 		link: "https://gist-o-tron.vercel.app/",
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Nova Haven",
 		description: "Real Estate Web Site",
 		techStack: [
@@ -71,11 +84,11 @@ export const PROJECTS = [
 			<SiVite className="text-blue-500" />,
 			<RiTailwindCssFill className="text-blue-300" />,
 		],
-		imgSrc: projects2,
+		imgSrc: projects3,
 		link: "https://nova-haven-fawn.vercel.app/",
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Paragon Studios",
 		description: "Martial arts training Web Site",
 		techStack: [
@@ -83,11 +96,11 @@ export const PROJECTS = [
 			<RiTailwindCssFill className="text-blue-300" />,
 			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
-		imgSrc: projects3,
+		imgSrc: projects4,
 		link: "https://paragon-studio.vercel.app//",
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "Tech Noir",
 		description: "Cinematic Special Effects Web Site",
 		techStack: [
@@ -95,11 +108,11 @@ export const PROJECTS = [
 			<SiVite className="text-blue-500" />,
 			<RiTailwindCssFill className="text-blue-300" />,
 		],
-		imgSrc: projects4,
+		imgSrc: projects5,
 		link: "https://tech-noir.vercel.app/",
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "Retro Metamorphosis",
 		description: "Analogue to Digital Transcription Web Site",
 		techStack: [
@@ -107,7 +120,7 @@ export const PROJECTS = [
 			<RiTailwindCssFill className="text-blue-300" />,
 			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
-		imgSrc: projects5,
+		imgSrc: projects6,
 		link: "https://retro-metamorphosis.vercel.app/",
 	},
 ];
