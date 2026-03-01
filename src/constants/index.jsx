@@ -90,7 +90,7 @@ export const PROJECTS = [
 	{
 		id: 4,
 		title: "Paragon Studios",
-		description: "Martial arts training Web Site",
+		description: "Martial Arts Training Web Site",
 		techStack: [
 			<RiReactjsFill className="text-purple-400" />,
 			<RiTailwindCssFill className="text-blue-300" />,
