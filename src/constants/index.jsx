@@ -8,7 +8,6 @@ import projects6 from "../assets/retro-meta.webp";
 import {FaHtml5, FaCss3Alt, FaGithub, FaBootstrap} from "react-icons/fa";
 
 import {
-	RiJavascriptFill,
 	RiReactjsFill,
 	RiTailwindCssFill,
 } from "react-icons/ri";
