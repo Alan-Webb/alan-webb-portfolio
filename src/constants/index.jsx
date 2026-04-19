@@ -1,16 +1,14 @@
-import projects1 from "../assets/cinephilia-hq.webp";
-import projects2 from "../assets/gist-o-tron.webp";
-import projects3 from "../assets/nova-haven.webp";
-import projects4 from "../assets/paragon-studios.webp";
-import projects5 from "../assets/tech-noir.webp";
-import projects6 from "../assets/retro-meta.webp";
+import projects1 from "../assets/iron-asylum.webp";
+import projects2 from "../assets/cinephilia-hq.webp";
+import projects3 from "../assets/gist-o-tron.webp";
+import projects4 from "../assets/nova-haven.webp";
+import projects5 from "../assets/paragon-studios.webp";
+import projects6 from "../assets/tech-noir.webp";
+import projects7 from "../assets/retro-meta.webp";
 
 import {FaHtml5, FaCss3Alt, FaGithub, FaBootstrap} from "react-icons/fa";
 
-import {
-	RiReactjsFill,
-	RiTailwindCssFill,
-} from "react-icons/ri";
+import {RiReactjsFill, RiTailwindCssFill} from "react-icons/ri";
 
 import {SiVite} from "react-icons/si";
 
@@ -52,6 +50,18 @@ export const ABOUT_CONTENT = {
 export const PROJECTS = [
 	{
 		id: 1,
+		title: "Iron Asylum",
+		description: "Gym Website",
+		techStack: [
+			<RiReactjsFill className="text-purple-400" />,
+			<RiTailwindCssFill className="text-blue-300" />,
+			<TbBrandFramerMotion className="text-yellow-300" />,
+		],
+		imgSrc: projects1,
+		link: "https://iron-asylum.vercel.app/",
+	},
+	{
+		id: 2,
 		title: "Cinephilia HQ",
 		description: "Movie Database App",
 		techStack: [
@@ -59,11 +69,11 @@ export const PROJECTS = [
 			<SiVite className="text-blue-500" />,
 			<RiTailwindCssFill className="text-blue-300" />,
 		],
-		imgSrc: projects1,
+		imgSrc: projects2,
 		link: "https://cinephilia-hq.vercel.app/",
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Gist-O-Tron",
 		description: "AI Text Summarizer",
 		techStack: [
@@ -71,11 +81,11 @@ export const PROJECTS = [
 			<SiVite className="text-blue-500" />,
 			<RiTailwindCssFill className="text-blue-300" />,
 		],
-		imgSrc: projects2,
+		imgSrc: projects3,
 		link: "https://gist-o-tron.vercel.app/",
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Nova Haven",
 		description: "Real Estate Web Site",
 		techStack: [
@@ -83,11 +93,11 @@ export const PROJECTS = [
 			<SiVite className="text-blue-500" />,
 			<RiTailwindCssFill className="text-blue-300" />,
 		],
-		imgSrc: projects3,
+		imgSrc: projects4,
 		link: "https://nova-haven-fawn.vercel.app/",
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "Paragon Studios",
 		description: "Martial Arts Training Web Site",
 		techStack: [
@@ -95,11 +105,11 @@ export const PROJECTS = [
 			<RiTailwindCssFill className="text-blue-300" />,
 			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
-		imgSrc: projects4,
+		imgSrc: projects5,
 		link: "https://paragon-studio.vercel.app//",
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "Tech Noir",
 		description: "Cinematic Special Effects Web Site",
 		techStack: [
@@ -107,11 +117,11 @@ export const PROJECTS = [
 			<SiVite className="text-blue-500" />,
 			<RiTailwindCssFill className="text-blue-300" />,
 		],
-		imgSrc: projects5,
+		imgSrc: projects6,
 		link: "https://tech-noir.vercel.app/",
 	},
 	{
-		id: 6,
+		id: 7,
 		title: "Retro Metamorphosis",
 		description: "Analogue to Digital Transcription Web Site",
 		techStack: [
@@ -119,7 +129,7 @@ export const PROJECTS = [
 			<RiTailwindCssFill className="text-blue-300" />,
 			<TbBrandFramerMotion className="text-yellow-300" />,
 		],
-		imgSrc: projects6,
+		imgSrc: projects7,
 		link: "https://retro-metamorphosis.vercel.app/",
 	},
 ];
