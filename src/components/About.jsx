@@ -1,15 +1,3 @@
-import {motion} from "framer-motion";
-import {ABOUT_CONTENT} from "../constants";
-
-const textVariants = {
-	hidden: {opacity: 0, y: 50},
-	visible: {
-		opacity: 1,
-		y: 0,
-		transition: {duration: 0.6, ease: "easeOut"},
-	},
-};
-
 const About = () => {
 	return (
 		<section className="px-6 py-10" id="about">
@@ -17,19 +5,19 @@ const About = () => {
 				About
 			</h1>
 			<div className="h-1 w-20 mb-10 bg-white"></div>
-
-			<div className="max-w-4xl mx-auto pb-6">
-				{ABOUT_CONTENT.paragraphs.map((paragraph, index) => (
-					<motion.p
-						key={index}
-						className="lg:text-3xl mb-10 leading-relaxed"
-						initial="hidden"
-						whileInView="visible"
-						viewport={{once: true, amount: 0.5}}
-						variants={textVariants}>
-						{paragraph}
-					</motion.p>
-				))}
+			<div className="max-w-4xl mx-auto pb-6 lg:text-3xl mb-10 leading-relaxed">
+				<p>
+					I am a dedicated frontend developer with a passion for building modern
+					web applications that are both functional and aesthetically pleasing.
+					Over the years, I have worked on numerous projects, always ensuring
+					high performance and seamless user experiences.
+				</p>
+				<p className="mt-12">
+					I specialize in using technologies like React, Tailwind CSS and
+					Framer-motion to create responsive and scalable interfaces. My focus
+					is on writing clean, maintainable code while aiming to deliver
+					projects that meet both business goals and user needs.
+				</p>
 			</div>
 		</section>
 	);
