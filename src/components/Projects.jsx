@@ -13,17 +13,17 @@ import {MdArrowOutward} from "react-icons/md";
 
 const Projects = () => {
 	const projects = [
-		{
-			id: 1,
-			title: "Droid Salon",
-			description: "Droid Upgrade Website",
-			techStack: [
-				<RiReactjsFill className="text-purple-400" />,
-				<RiTailwindCssFill className="text-blue-300" />,
-			],
-			imgSrc: projects1,
-			link: "https://droid-salon.vercel.app/",
-		},
+		// {
+		// 	id: 1,
+		// 	title: "Droid Salon",
+		// 	description: "Droid Upgrade Website",
+		// 	techStack: [
+		// 		<RiReactjsFill className="text-purple-400" />,
+		// 		<RiTailwindCssFill className="text-blue-300" />,
+		// 	],
+		// 	imgSrc: projects1,
+		// 	link: "https://droid-salon.vercel.app/",
+		// },
 		{
 			id: 2,
 			title: "Iron Asylum",
