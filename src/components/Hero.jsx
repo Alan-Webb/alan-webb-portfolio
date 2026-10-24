@@ -1,6 +1,5 @@
 import {motion} from "framer-motion";
 import alan from "../assets/alan-webb.webp";
-import {FaDownload} from "react-icons/fa";
 
 const Hero = () => {
 	const textVariants = {
@@ -63,13 +62,10 @@ const Hero = () => {
 					{/* Button */}
 					<motion.a
 						className="bg-pink-600 text-white text-lg p-3 lg:p-4 mt-8 inline-block rounded-2xl hover:bg-pink-500"
-						href="/resume.pdf"
-						download
+						href="#contact"
 						rel="noopener noreferrer"
-						target="_blank"
 						variants={textVariants}>
-						Download Resume
-						<FaDownload className="inline-block mx-3 mb-1 text-sm" />
+						Contact Me
 					</motion.a>
 				</motion.div>
 				{/* Image */}
